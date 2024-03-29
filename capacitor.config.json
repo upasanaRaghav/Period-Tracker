@@ -1,0 +1,6 @@
+{
+  "appId": "peri.test",
+  "appName": "Test Peri",
+  "webDir": "build",
+  "bundledWebRuntime": false
+}

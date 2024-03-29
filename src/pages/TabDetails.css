@@ -1,0 +1,89 @@
+
+#progress-block {
+  width: 300px;
+  height: 70px;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#average-length {
+  width: 300px;
+  height: 75px;
+  border-radius: 20px;
+
+  display: flex;
+}
+
+#inline-block {
+  width: 149px;
+  border-radius: 20px;
+
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#vertical-line {
+  width: 2px;
+  height: 55px;
+  background: var(--ion-color-light);
+}
+
+ion-progress-bar {
+  height: 8px;
+  border-radius: 20px;
+}
+
+ion-progress-bar.current-progress-basic,
+ion-progress-bar.current-progress-dark {
+  height: 8px;
+  border-radius: 20px;
+}
+
+/* basic group */
+ion-progress-bar.basic::part(stream),
+ion-progress-bar.current-progress-basic::part(stream) {
+  border-radius: 20px;
+  background: #ffffff;
+}
+
+ion-progress-bar.basic::part(progress),
+ion-progress-bar.current-progress-basic::part(progress) {
+  border-radius: 20px;
+  background: var(--ion-color-dark-basic);
+}
+
+ion-progress-bar.basic::part(track) {
+  border-radius: 20px;
+  background: var(--ion-color-light-basic);
+}
+
+ion-progress-bar.current-progress-basic::part(track) {
+  border-radius: 20px;
+  background: var(--ion-color-transparent-basic);
+}
+
+/* dark group */
+ion-progress-bar.dark::part(stream),
+ion-progress-bar.current-progress-dark::part(stream) {
+  border-radius: 20px;
+  background: var(--ion-color-calendar-dark);
+}
+
+ion-progress-bar.dark::part(progress),
+ion-progress-bar.current-progress-dark::part(progress) {
+  border-radius: 20px;
+  background: var(--ion-color-dark-dark);
+}
+
+ion-progress-bar.dark::part(track) {
+  border-radius: 20px;
+  background: rgba(var(--ion-color-light-dark-rgb), 0.4);
+}
+
+ion-progress-bar.current-progress-dark::part(track) {
+  border-radius: 20px;
+  background: rgba(var(--ion-color-light-dark-rgb), 0.3);
+}

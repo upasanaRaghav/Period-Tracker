@@ -1,0 +1,88 @@
+{
+  "name": "peri",
+  "version": "2.3.9",
+  "author": {
+    "name": "Upasana",
+    "url": "https://github.com/IraSoro"
+  },
+  "dependencies": {
+    "@capacitor/android": "5.0.5",
+    "@capacitor/app": "5.0.3",
+    "@capacitor/core": "5.0.5",
+    "@capacitor/filesystem": "^5.0.4",
+    "@capacitor/haptics": "5.0.4",
+    "@capacitor/keyboard": "5.0.4",
+    "@capacitor/share": "^5.0.4",
+    "@capacitor/status-bar": "5.0.4",
+    "@ionic/core": "^7.5.1",
+    "@ionic/react": "^7.5.1",
+    "@ionic/react-router": "^7.5.1",
+    "@ionic/storage": "^4.0.0",
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/jest": "^29.5.2",
+    "@types/node": "^20.3.2",
+    "@types/react": "^18.2.4",
+    "@types/react-dom": "^18.2.6",
+    "@types/react-router": "^5.1.11",
+    "@types/react-router-dom": "^5.1.7",
+    "date-fns": "^2.30.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "i18next": "^23.2.11",
+    "i18next-intervalplural-postprocessor": "^3.0.0",
+    "ionicons": "^7.1.2",
+    "prettier": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.0.2",
+    "react-router": "^5.3.4",
+    "react-router-dom": "^5.3.4",
+    "react-scripts": "^5.0.0",
+    "typescript": "^4.9.5",
+    "web-vitals": "^3.3.2",
+    "workbox-background-sync": "^7.0.0",
+    "workbox-broadcast-update": "^7.0.0",
+    "workbox-cacheable-response": "^7.0.0",
+    "workbox-core": "^7.0.0",
+    "workbox-expiration": "^7.0.0",
+    "workbox-google-analytics": "^7.0.0",
+    "workbox-navigation-preload": "^7.0.0",
+    "workbox-precaching": "^7.0.0",
+    "workbox-range-requests": "^7.0.0",
+    "workbox-routing": "^7.0.0",
+    "workbox-strategies": "^7.0.0",
+    "workbox-streams": "^7.0.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)\" --silent",
+    "test:all": "react-scripts test --transformIgnorePatterns \"node_modules/(?!(@ionic/react|@ionic/react-router|@ionic/core|@stencil/core|ionicons)/)\" --silent --watchAll=false",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .js --ext .mjs --ext .ts --ext .tsx .",
+    "fmt": "prettier --write .",
+    "fmt:check": "prettier --check ."
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@capacitor/cli": "5.0.5",
+    "@ionic/lab": "3.2.15",
+    "gh-pages": "^5.0.0"
+  },
+  "description": "The Period Tracker App"
+}
